@@ -67,7 +67,7 @@ Mientras que esta guía explica el *qué*, *por qué* y *cómo*, me resulta úti
 
     *¿Por qué?*: Un componente por archivo evita errores ocultos que a menudo surgen cuando se combinan componentes en un archivo donde pueden compartir variables, crear closures (clausuras) no deseadas, o acoplamiento indeseado de dependencias.
 
-  El siguiente ejemplo define el módulo `app` y sus dependencias, define un controlador, y defines una factoría todo en el mismo archivo.
+  El siguiente ejemplo define en el mismo archivo el módulo `app`, sus dependencias, un controlador, y una factoría.
 
   ```javascript
   /* evitar */
